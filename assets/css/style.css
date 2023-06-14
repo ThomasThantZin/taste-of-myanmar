@@ -61,12 +61,10 @@ h1 {
 }
 
 #nav a:hover {
-    background-color: #0A9EC1;
-    border-radius: 95%;
-
+    border-bottom: 1px solid #e8e5e5;
 }
 
+
 .active {
-    background-color: #0A9EC1;
-    border-radius: 95%;
+    border-bottom: 1px solid #e8e5e5;
 }
