@@ -15,33 +15,58 @@ body {
 
 /* heading and logo */
 
-h1,
-h2 {
+.header {
+    background-color: #43526A;
+    height: 75px;
+}
+
+h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #080808;
+    color: #ebe5e5;
+
 }
 
 #logo {
     float: left;
     font-size: 220%;
+    margin-left: 20px;
 }
 
 /* navigation and links */
 
-#menu {
+
+
+#nav {
     font-size: 110%;
     letter-spacing: 2px;
+
 }
 
-#menu,
+#nav,
 #logo {
     line-height: 75px;
 }
 
-#menu li {
+#nav li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #ebe5e5;
+}
+
+#nav a:hover {
+    background-color: #0A9EC1;
+    border-radius: 95%;
+
+}
+
+.active {
+    background-color: #0A9EC1;
+    border-radius: 95%;
 }
