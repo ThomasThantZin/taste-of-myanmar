@@ -18,6 +18,8 @@ body {
 .header {
     background-color: #43526A;
     height: 75px;
+    position: sticky;
+    top: 0px;
 }
 
 h1 {
@@ -67,4 +69,59 @@ h1 {
 
 .active {
     border-bottom: 1px solid #e8e5e5;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 460px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: rgb(0, 0, 0);
+}
+
+#hero-image {
+    height: 460px;
+    width: 100%;
+    background: url(../images/foods.jpg) no-repeat center center;
+
+    /* animation zoom effect on loading page*/
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creats the lvl of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 80%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 500px;
+    height: 120px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
 }
