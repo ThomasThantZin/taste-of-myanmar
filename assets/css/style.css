@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
 
 body {
@@ -128,11 +129,19 @@ h1 {
 
 /* opening header */
 
-.opening-header {
+#opening-header {
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
     text-align: center;
+}
+
+#opening-header>h2 {
+    font-size: 40px;
+}
+
+#opening-header>p {
+    font-size: 18px;
 }
 
 /*about food*/
@@ -184,10 +193,52 @@ h1 {
 }
 
 .text-col>h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 #food-text {
     padding: 0;
     margin: 30px auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #43526A;
+}
+
+#footer-container {
+    width: 100%;
+    padding-top: 12px;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons>a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+#social-icons>a>i {
+    font-size: 32px;
+    color: #43526A;
+
+}
+
+/*hover on social media icons*/
+#social-icons a:hover {
+    background-color: #43526A;
+    transition: 0.5s;
+}
+
+#social-icons a:hover i {
+    color: white;
+    transition: 0.5s;
 }
