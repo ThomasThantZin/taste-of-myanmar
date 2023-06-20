@@ -242,3 +242,12 @@ footer {
     color: white;
     transition: 0.5s;
 }
+
+/* footer text */
+
+#footer-text{
+    text-align: center;
+}
+#footer-text >p{
+    color: white;
+}
