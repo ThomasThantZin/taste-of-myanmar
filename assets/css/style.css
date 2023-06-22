@@ -201,6 +201,50 @@ h1 {
     margin: 30px auto;
 }
 
+/* about us  */
+
+
+
+#aboutus-image-outer {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+#aboutus-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/meal.jpg) no-repeat center center;
+    background-size: cover;
+
+
+}
+
+.aboutus-container>h1 {
+    color: #43526A;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutus-container>p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-container {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+
 /* footer */
 
 footer {
@@ -243,11 +287,15 @@ footer {
     transition: 0.5s;
 }
 
+
+
+
 /* footer text */
 
-#footer-text{
+#footer-text {
     text-align: center;
 }
-#footer-text >p{
+
+#footer-text>p {
     color: white;
 }
