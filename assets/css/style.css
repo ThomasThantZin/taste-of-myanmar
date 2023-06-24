@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 300;
+    font-size: 17px;
     color: #3a3a3a;
 }
 
@@ -137,11 +138,11 @@ h1 {
 }
 
 #opening-header>h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #opening-header>p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*about food*/
@@ -227,6 +228,7 @@ h1 {
     font-size: 28px;
     margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .aboutus-container>p {
@@ -240,10 +242,116 @@ h1 {
 .aboutus-container {
     max-width: 800px;
     margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* contact us */
+
+.contact-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.contact-info {
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-input {
+    background: #abbdda;
+    color: #3a3a3a;
+    border: 1px solid #fff;
+    width: 335px;
+    height: 50px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+
 
 }
 
+.contact-form .text-input:hover {
+    border-color: #669bf0;
+}
 
+input::placeholder {
+    color: #3a3a3a;
+}
+
+textarea::placeholder {
+    color: #3a3a3a;
+}
+
+.contact-form textarea {
+    background: #abbdda;
+    color: #3a3a3a;
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea:hover {
+    border-color: #669bf0;
+}
+
+.sent-butn {
+    float: right;
+    background-color: #669bf0;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+
+
+
+}
+
+.sent-butn:hover {
+    background-color: #528eef;
+    color: #fafafa;
+}
 
 /* footer */
 
@@ -270,7 +378,7 @@ footer {
 
 }
 
-#social-icons>a>i {
+#social-icons a i {
     font-size: 32px;
     color: #43526A;
 
