@@ -401,3 +401,58 @@ footer {
 #footer-text>p {
     color: white;
 }
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 125px;
+    }
+
+    #nav {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+
+    #logo {
+        font-size: 30px;
+    }
+
+    #nav {
+        font-size: 20px;
+        letter-spacing: 1px;
+
+    }
+
+    #nav li {
+        float: right;
+        list-style-type: none;
+        margin-right: 9px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .image-gallery {
+        padding-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 357px) {
+    .header {
+        height: 200px;
+    }
+
+}
