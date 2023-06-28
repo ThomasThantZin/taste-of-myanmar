@@ -116,10 +116,10 @@ h1 {
     font-size: 70%;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     width: 500px;
     height: 120px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(241, 109, 107, .7);
     bottom: 30px;
@@ -228,7 +228,7 @@ h1 {
 }
 
 .cuisine-item img {
-    width: 300px;
+    width: 100%;
     height: 250px;
     border-radius: 8px;
 }
@@ -402,7 +402,13 @@ footer {
     color: white;
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes  */
+@media screen and (max-width: 1350px) {
+
+    .image-gallery {
+        padding-left: 30px;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .header {
@@ -417,9 +423,51 @@ footer {
         line-height: 25px;
     }
 
+
+}
+
+@media screen and (max-width: 700px) {
     #cover-text {
+        width: 300px;
         left: 0;
+        font-size: 60%;
     }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .image-gallery img {
+        width: 90%;
+
+
+    }
+
+    .image-gallery {
+        margin-right: 85px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-food .col {
+        width: 100%;
+
+    }
+
+    .cuisines {
+        padding: 20px;
+    }
+
+    .cuisines p {
+        text-align: left;
+    }
+
+    .cuisine-item {
+        width: 50%;
+        height: 50%;
+        margin: 20px 0;
+    }
+
 }
 
 @media screen and (max-width: 428px) {
@@ -440,19 +488,22 @@ footer {
         list-style-type: none;
         margin-right: 9px;
     }
-}
 
-@media screen and (max-width: 1350px) {
 
-    .image-gallery {
-        padding-left: 30px;
-    }
 }
 
 
-@media screen and (max-width: 357px) {
+
+
+
+@media screen and (max-width: 358px) {
     .header {
         height: 200px;
     }
 
+    #nav {
+        font-size: 90%;
+        letter-spacing: 2px;
+
+    }
 }
