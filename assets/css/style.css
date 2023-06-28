@@ -256,6 +256,12 @@ h1 {
     line-height: 65px;
     padding-left: 50px;
     font-size: 18px;
+    color: #43526A;
+}
+
+.contact-info a {
+    color: #43526A;
+    text-decoration: none;
 }
 
 .contact-info i {
