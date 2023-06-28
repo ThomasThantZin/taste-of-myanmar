@@ -408,6 +408,16 @@ footer {
     color: white;
 }
 
+
+/* thank you */
+
+#thanks {
+    text-align: center;
+    height: 90px;
+    padding-top: 35px;
+}
+
+
 /* For medium screen sizes  */
 @media screen and (max-width: 1350px) {
 
