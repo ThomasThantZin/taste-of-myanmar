@@ -79,6 +79,8 @@ All pages were tested on Google Chrome, Safari and Firefox
 - HTML
   - No errors were returned for home page when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fthomasthantzin.github.io%2Ftaste-of-myanmar%2Findex.html)
   
-  - No errors were returned for contact page when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fthomasthantzin.github.io%2Ftaste-of-myanmar%2Ffamous-cuisines.html)
+  - No errors were returned for famous cuisines page when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fthomasthantzin.github.io%2Ftaste-of-myanmar%2Ffamous-cuisines.html)
+
+  - No errors were returned for famous cuisines page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomasthantzin.github.io%2Ftaste-of-myanmar%2Fcontact.html#textarea)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthomasthantzin.github.io%2Ftaste-of-myanmar%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
